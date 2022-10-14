@@ -1,0 +1,12 @@
+name: StopBranchMining
+version: '${version}'
+main: ltotj.minecraft.stopbranchmining.StopBranchMining
+api-version: 1.17
+
+commands:
+  sbm:
+    usage: ""
+
+permissions:
+  sbm.admin:
+    default: op
