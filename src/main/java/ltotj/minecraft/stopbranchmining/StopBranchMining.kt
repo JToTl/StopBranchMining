@@ -27,6 +27,7 @@ class StopBranchMining : JavaPlugin(),Listener {
     }
 
     fun loadConfig(){
+        reloadConfig()
         worlds.clear()
         worlds.addAll(config.getStringList("worlds"))
         enable=config.getBoolean("enable")
